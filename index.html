@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit's Interactive Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+   
+    <div class="left-panel">
+      
+      <!-- Profile Picture -->
+      <!-- Profile Picture -->
+      <div class="pfp">
+        <img src="assets/pfpamit.jpg" alt="Profile Picture" class="neon-pfp">
+      </div>
+
+      <div class="pfpname">
+        <img src="assets/megumin-hat.png" alt="Megumin Hat" class="megumin-hat" />
+        @kaizoku_amit
+      </div>
+      
+
+      <div class="details"> Hero? No! I'm a pirate! ☠ I love heroes, but I don't wanna be one!</div>
+
+      <!-- Music Section -->
+<div class="music" id="musicSection">
+  <div class="music-track" data-src="assets/ ">AYO DEPO</div>
+  <div class="music-track" data-src="assets/A E Din - S4MM.mp3">עמית</div>
+  <div class="music-track" data-src="assets/Eyes Off You.mp3">Eyes Off you</div>
+  <div class="music-track" data-src="assets/yanna.mp3"> Yanna</div>
+  <div class="music-track" data-src="assets/Looking For Love.mp3"> Looking for love</div>
+  <div class="music-track" data-src="assets/Milenge Hum Nahi - Kunaal Vermaa.mp3"> Milenge Hum Nahi</div>
+</div>
+<audio id="musicPlayer"></audio>
+
+
+      <!-- Game UIDs -->
+      <div class="game-uid">GENSHIN IMPACT- 883889276</div>
+      <div class="game-uid">WUTHERING WAVES - 900613869</div>
+      <div class="game-uid">CODM - 6743848246202269698</div>
+
+      <!-- Buttons Grid -->
+<div class="buttons-grid">
+  <div class="button sound-button" data-sound="assets/explosone.mp3" onclick="window.open('https://www.instagram.com/kaizoku_amit/?__pwa=1', '_blank')">INSTAGRAM</div>
+  <div class="button sound-button" data-sound="assets/explosone.mp3" onclick="window.open('https://x.com/kaizoku_amit?s=09', '_blank')">TWITTER (X)</div>
+  <div class="button sound-button" data-sound="assets/explosone.mp3" onclick="window.open('https://www.youtube.com/@amitnayak-/featured', '_blank')">YOUTUBE</div>
+  <div class="button sound-button" data-sound="assets/explosone.mp3" onclick="window.open('https://open.spotify.com/playlist/2BCixQTHub8fjOOv9jBOUs?si=TNZSHN0fTpuNJyBKfiUitA')">SPOTIFY</div>
+</div>
+    </div>
+
+    <!-- Video Box -->
+    <div class="video-box">
+      <video id="mainVideo" loop playsinline style="pointer-events: none;">
+        <source src="assets/iloveiloveeeeeeeee.mp4" type="video/mp4">
+      </video>
+      <div class="video-controls">
+        <a href="https://youtu.be/CXRe-_sggEE?si=pphzKJHhUOVAABsT" target="_blank"></a>
+        <div id="explodeTrigger" class="button image-button">
+          <img src="assets/exploson.jpg" alt="Explosion" />
+        </div>
+      </div>
+      
+      </div>
+      
+    </div>
+      <!-- Background Video -->
+<video id="mainVideo" autoplay muted loop playsinline
+style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -1; pointer-events: none;">
+<source src="assets/backgroundvid.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+    </div>
+  </div>
+
+  <!-- Audio Players -->
+  <audio id="musicPlayer"></audio>
+  <audio id="buttonSoundPlayer"></audio>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+<!-- Footer Paragraph -->
+<div class="bottom-paragraph">
+  <p>This site was forged with love, a dash of madness, and the mighty power of Megumin’s explosion magic! Kaboom! ©2025 @kaizoku_amit</p>
+</div>
+
+</html>
